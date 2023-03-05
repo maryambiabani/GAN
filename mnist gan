@@ -1,0 +1,5002 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOtZQJZSMHuUiVQvprLidaQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU",
+    "gpuClass": "standard",
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "e7f65532513f40d2a3104b7fcfa99934": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_65180040b09645c6a883ccdfea40f437",
+              "IPY_MODEL_1c161a77cd174302b253bb6b28d71fce",
+              "IPY_MODEL_65825da788184c819f01cea76535e6c9"
+            ],
+            "layout": "IPY_MODEL_9c8e75a6b3984fc1ac3d4cc4a1900c0e"
+          }
+        },
+        "65180040b09645c6a883ccdfea40f437": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_ef0708622d2c467aa3a37bfe12563cda",
+            "placeholder": "​",
+            "style": "IPY_MODEL_7c9777f0a1f648b7818e486101d1c924",
+            "value": "100%"
+          }
+        },
+        "1c161a77cd174302b253bb6b28d71fce": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_4e9d3343f1584a4f992180e3e93eff34",
+            "max": 9912422,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_6211e762fad6427199683d4072240661",
+            "value": 9912422
+          }
+        },
+        "65825da788184c819f01cea76535e6c9": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_b76a9679f94643e391e6969986efd367",
+            "placeholder": "​",
+            "style": "IPY_MODEL_ef7f021a40ee4348b6750f1c536ebbba",
+            "value": " 9912422/9912422 [00:00&lt;00:00, 181504183.34it/s]"
+          }
+        },
+        "9c8e75a6b3984fc1ac3d4cc4a1900c0e": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ef0708622d2c467aa3a37bfe12563cda": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "7c9777f0a1f648b7818e486101d1c924": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "4e9d3343f1584a4f992180e3e93eff34": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "6211e762fad6427199683d4072240661": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "b76a9679f94643e391e6969986efd367": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ef7f021a40ee4348b6750f1c536ebbba": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "902c6964ebf84f468b1fcfd553709571": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_c2e933af0bd94ba4844a66609eddb185",
+              "IPY_MODEL_d92b56e04c17404b9abe99ab37a6984e",
+              "IPY_MODEL_022fe4f659884faeb900d5bbed925127"
+            ],
+            "layout": "IPY_MODEL_7b1b9dc12fdf439ea3d4c26923bc8552"
+          }
+        },
+        "c2e933af0bd94ba4844a66609eddb185": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_d6c02a5e925f4896aec1db1ade4036bc",
+            "placeholder": "​",
+            "style": "IPY_MODEL_ce7732418d4e4a369379f11bb6300f25",
+            "value": "100%"
+          }
+        },
+        "d92b56e04c17404b9abe99ab37a6984e": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_b1ddd752fd17464d80c5ebf33452c497",
+            "max": 28881,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_d9fce7090140497a8497817538f8414c",
+            "value": 28881
+          }
+        },
+        "022fe4f659884faeb900d5bbed925127": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_c91e39a1e8f449f88be710124d77e7c9",
+            "placeholder": "​",
+            "style": "IPY_MODEL_724b474685304255a2f74853cfb071a6",
+            "value": " 28881/28881 [00:00&lt;00:00, 1631654.93it/s]"
+          }
+        },
+        "7b1b9dc12fdf439ea3d4c26923bc8552": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "d6c02a5e925f4896aec1db1ade4036bc": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ce7732418d4e4a369379f11bb6300f25": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "b1ddd752fd17464d80c5ebf33452c497": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "d9fce7090140497a8497817538f8414c": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "c91e39a1e8f449f88be710124d77e7c9": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "724b474685304255a2f74853cfb071a6": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "6ee91681e03f47ff93e77fb6b0f3c6fe": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_90c4c3630f0d4e10b0bfdb010bd73709",
+              "IPY_MODEL_11ed9a6ddf2a41f4bf4348663a1c560a",
+              "IPY_MODEL_99700a735e024031bf125fa7128da39d"
+            ],
+            "layout": "IPY_MODEL_75ccfede19f1408ea0d07cccf9773ae6"
+          }
+        },
+        "90c4c3630f0d4e10b0bfdb010bd73709": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_5ba36ffea72149b0bca3a60d31ede590",
+            "placeholder": "​",
+            "style": "IPY_MODEL_b4871a6f6f0c4a6099339693e5527aaa",
+            "value": "100%"
+          }
+        },
+        "11ed9a6ddf2a41f4bf4348663a1c560a": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_97d41159f99b40b8814a61a988a85405",
+            "max": 1648877,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_f345f0c1f06c4b9c9d118c8aa7c4bcff",
+            "value": 1648877
+          }
+        },
+        "99700a735e024031bf125fa7128da39d": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_ba8ac7c2ee474396813f3614ad626a5f",
+            "placeholder": "​",
+            "style": "IPY_MODEL_8d036326acd644e7989a1004bde6a555",
+            "value": " 1648877/1648877 [00:00&lt;00:00, 54847979.23it/s]"
+          }
+        },
+        "75ccfede19f1408ea0d07cccf9773ae6": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "5ba36ffea72149b0bca3a60d31ede590": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "b4871a6f6f0c4a6099339693e5527aaa": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "97d41159f99b40b8814a61a988a85405": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f345f0c1f06c4b9c9d118c8aa7c4bcff": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "ba8ac7c2ee474396813f3614ad626a5f": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "8d036326acd644e7989a1004bde6a555": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "1cab83f3ef804810b2e4764d7e4af604": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_d48aff7079894272a7910e8b541e1390",
+              "IPY_MODEL_d1beb331282e4039bd63f4d29b635607",
+              "IPY_MODEL_39875e97aa7a47b19a0d5ea75d89e1aa"
+            ],
+            "layout": "IPY_MODEL_fbc6883b55fe4f6c82a4acdf797d8f03"
+          }
+        },
+        "d48aff7079894272a7910e8b541e1390": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_ae315ee4ca954156bda2a0b9a416ff67",
+            "placeholder": "​",
+            "style": "IPY_MODEL_ee09f947e1554804ac92b04b64cd3983",
+            "value": "100%"
+          }
+        },
+        "d1beb331282e4039bd63f4d29b635607": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_c69a7bf4ae9443d3aa2213c24268dd45",
+            "max": 4542,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_a654a4f9cd3545378a8addbb9a495fc6",
+            "value": 4542
+          }
+        },
+        "39875e97aa7a47b19a0d5ea75d89e1aa": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_2bc650465f1a4d5e8d963c928ec970b9",
+            "placeholder": "​",
+            "style": "IPY_MODEL_04d86c5b212348d782d42da790833bc0",
+            "value": " 4542/4542 [00:00&lt;00:00, 280741.09it/s]"
+          }
+        },
+        "fbc6883b55fe4f6c82a4acdf797d8f03": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ae315ee4ca954156bda2a0b9a416ff67": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "ee09f947e1554804ac92b04b64cd3983": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "c69a7bf4ae9443d3aa2213c24268dd45": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "a654a4f9cd3545378a8addbb9a495fc6": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "2bc650465f1a4d5e8d963c928ec970b9": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "04d86c5b212348d782d42da790833bc0": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maryambiabani/GAN/blob/master/mnist%20gan\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "awD_3s2muOAs"
+      },
+      "outputs": [],
+      "source": [
+        "import torch\n",
+        "import torch.nn as nn\n",
+        "import torchvision.transforms as transforms\n",
+        "import torch.optim as optim\n",
+        "import torchvision.datasets as datasets\n",
+        "import imageio\n",
+        "import numpy as np\n",
+        "import matplotlib\n",
+        "\n",
+        "from torchvision.utils import make_grid, save_image\n",
+        "from torch.utils.data import DataLoader\n",
+        "from matplotlib import pyplot as plt\n",
+        "from tqdm import tqdm\n",
+        "\n",
+        "matplotlib.style.use('ggplot')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# learning parameters\n",
+        "batch_size = 512\n",
+        "epochs = 200\n",
+        "sample_size = 64 # fixed sample size\n",
+        "nz = 128 # latent vector size\n",
+        "k = 1 # number of steps to apply to the discriminator\n",
+        "device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')"
+      ],
+      "metadata": {
+        "id": "K0qXomKxunHU"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "transform = transforms.Compose([\n",
+        "                                transforms.ToTensor(),\n",
+        "                                transforms.Normalize((0.5,),(0.5,)),\n",
+        "])\n",
+        "to_pil_image = transforms.ToPILImage()"
+      ],
+      "metadata": {
+        "id": "fRftaYgzu3b-"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "train_data = datasets.MNIST(\n",
+        "    root='../input/data',\n",
+        "    train=True,\n",
+        "    download=True,\n",
+        "    transform=transform\n",
+        ")\n",
+        "train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 423,
+          "referenced_widgets": [
+            "e7f65532513f40d2a3104b7fcfa99934",
+            "65180040b09645c6a883ccdfea40f437",
+            "1c161a77cd174302b253bb6b28d71fce",
+            "65825da788184c819f01cea76535e6c9",
+            "9c8e75a6b3984fc1ac3d4cc4a1900c0e",
+            "ef0708622d2c467aa3a37bfe12563cda",
+            "7c9777f0a1f648b7818e486101d1c924",
+            "4e9d3343f1584a4f992180e3e93eff34",
+            "6211e762fad6427199683d4072240661",
+            "b76a9679f94643e391e6969986efd367",
+            "ef7f021a40ee4348b6750f1c536ebbba",
+            "902c6964ebf84f468b1fcfd553709571",
+            "c2e933af0bd94ba4844a66609eddb185",
+            "d92b56e04c17404b9abe99ab37a6984e",
+            "022fe4f659884faeb900d5bbed925127",
+            "7b1b9dc12fdf439ea3d4c26923bc8552",
+            "d6c02a5e925f4896aec1db1ade4036bc",
+            "ce7732418d4e4a369379f11bb6300f25",
+            "b1ddd752fd17464d80c5ebf33452c497",
+            "d9fce7090140497a8497817538f8414c",
+            "c91e39a1e8f449f88be710124d77e7c9",
+            "724b474685304255a2f74853cfb071a6",
+            "6ee91681e03f47ff93e77fb6b0f3c6fe",
+            "90c4c3630f0d4e10b0bfdb010bd73709",
+            "11ed9a6ddf2a41f4bf4348663a1c560a",
+            "99700a735e024031bf125fa7128da39d",
+            "75ccfede19f1408ea0d07cccf9773ae6",
+            "5ba36ffea72149b0bca3a60d31ede590",
+            "b4871a6f6f0c4a6099339693e5527aaa",
+            "97d41159f99b40b8814a61a988a85405",
+            "f345f0c1f06c4b9c9d118c8aa7c4bcff",
+            "ba8ac7c2ee474396813f3614ad626a5f",
+            "8d036326acd644e7989a1004bde6a555",
+            "1cab83f3ef804810b2e4764d7e4af604",
+            "d48aff7079894272a7910e8b541e1390",
+            "d1beb331282e4039bd63f4d29b635607",
+            "39875e97aa7a47b19a0d5ea75d89e1aa",
+            "fbc6883b55fe4f6c82a4acdf797d8f03",
+            "ae315ee4ca954156bda2a0b9a416ff67",
+            "ee09f947e1554804ac92b04b64cd3983",
+            "c69a7bf4ae9443d3aa2213c24268dd45",
+            "a654a4f9cd3545378a8addbb9a495fc6",
+            "2bc650465f1a4d5e8d963c928ec970b9",
+            "04d86c5b212348d782d42da790833bc0"
+          ]
+        },
+        "id": "Rz37qdLOvNS7",
+        "outputId": "64addb21-d3b4-410d-e2ce-6d1bedbc44f5"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ../input/data/MNIST/raw/train-images-idx3-ubyte.gz\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "  0%|          | 0/9912422 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "e7f65532513f40d2a3104b7fcfa99934"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Extracting ../input/data/MNIST/raw/train-images-idx3-ubyte.gz to ../input/data/MNIST/raw\n",
+            "\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ../input/data/MNIST/raw/train-labels-idx1-ubyte.gz\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "  0%|          | 0/28881 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "902c6964ebf84f468b1fcfd553709571"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Extracting ../input/data/MNIST/raw/train-labels-idx1-ubyte.gz to ../input/data/MNIST/raw\n",
+            "\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ../input/data/MNIST/raw/t10k-images-idx3-ubyte.gz\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "  0%|          | 0/1648877 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "6ee91681e03f47ff93e77fb6b0f3c6fe"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Extracting ../input/data/MNIST/raw/t10k-images-idx3-ubyte.gz to ../input/data/MNIST/raw\n",
+            "\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz\n",
+            "Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ../input/data/MNIST/raw/t10k-labels-idx1-ubyte.gz\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "  0%|          | 0/4542 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "1cab83f3ef804810b2e4764d7e4af604"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Extracting ../input/data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ../input/data/MNIST/raw\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Generator(nn.Module):\n",
+        "    def __init__(self, nz):\n",
+        "        super(Generator, self).__init__()\n",
+        "        self.nz = nz\n",
+        "        self.main = nn.Sequential(\n",
+        "            nn.Linear(self.nz, 256),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Linear(256, 512),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Linear(512, 1024),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Linear(1024, 784),\n",
+        "            nn.Tanh(),\n",
+        "        )\n",
+        "    def forward(self, x):\n",
+        "        return self.main(x).view(-1, 1, 28, 28)"
+      ],
+      "metadata": {
+        "id": "25ofgJWbveI_"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Discriminator(nn.Module):\n",
+        "    def __init__(self):\n",
+        "        super(Discriminator, self).__init__()\n",
+        "        self.n_input = 784\n",
+        "        self.main = nn.Sequential(\n",
+        "            nn.Linear(self.n_input, 1024),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Dropout(0.3),\n",
+        "            nn.Linear(1024, 512),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Dropout(0.3),\n",
+        "            nn.Linear(512, 256),\n",
+        "            nn.LeakyReLU(0.2),\n",
+        "            nn.Dropout(0.3),\n",
+        "            nn.Linear(256, 1),\n",
+        "            nn.Sigmoid(),\n",
+        "        )\n",
+        "    def forward(self, x):\n",
+        "        x = x.view(-1, 784)\n",
+        "        return self.main(x)"
+      ],
+      "metadata": {
+        "id": "lH9--jVB2zIW"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# oving further, we need to initialize the generator and discriminator neural networks.\n",
+        "generator = Generator(nz).to(device)\n",
+        "discriminator = Discriminator().to(device)\n",
+        "print('##### GENERATOR #####')\n",
+        "print(generator)\n",
+        "print('######################')\n",
+        "print('\\n##### DISCRIMINATOR #####')\n",
+        "print(discriminator)\n",
+        "print('######################')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_bXN2I0V3KER",
+        "outputId": "060c9a6c-9677-4de4-8c84-a7a4a7565a2b"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "##### GENERATOR #####\n",
+            "Generator(\n",
+            "  (main): Sequential(\n",
+            "    (0): Linear(in_features=128, out_features=256, bias=True)\n",
+            "    (1): LeakyReLU(negative_slope=0.2)\n",
+            "    (2): Linear(in_features=256, out_features=512, bias=True)\n",
+            "    (3): LeakyReLU(negative_slope=0.2)\n",
+            "    (4): Linear(in_features=512, out_features=1024, bias=True)\n",
+            "    (5): LeakyReLU(negative_slope=0.2)\n",
+            "    (6): Linear(in_features=1024, out_features=784, bias=True)\n",
+            "    (7): Tanh()\n",
+            "  )\n",
+            ")\n",
+            "######################\n",
+            "\n",
+            "##### DISCRIMINATOR #####\n",
+            "Discriminator(\n",
+            "  (main): Sequential(\n",
+            "    (0): Linear(in_features=784, out_features=1024, bias=True)\n",
+            "    (1): LeakyReLU(negative_slope=0.2)\n",
+            "    (2): Dropout(p=0.3, inplace=False)\n",
+            "    (3): Linear(in_features=1024, out_features=512, bias=True)\n",
+            "    (4): LeakyReLU(negative_slope=0.2)\n",
+            "    (5): Dropout(p=0.3, inplace=False)\n",
+            "    (6): Linear(in_features=512, out_features=256, bias=True)\n",
+            "    (7): LeakyReLU(negative_slope=0.2)\n",
+            "    (8): Dropout(p=0.3, inplace=False)\n",
+            "    (9): Linear(in_features=256, out_features=1, bias=True)\n",
+            "    (10): Sigmoid()\n",
+            "  )\n",
+            ")\n",
+            "######################\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# optimizers\n",
+        "optim_g = optim.Adam(generator.parameters(), lr=0.0002)\n",
+        "optim_d = optim.Adam(discriminator.parameters(), lr=0.0002)"
+      ],
+      "metadata": {
+        "id": "_1sBS4jS3knB"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# loss function\n",
+        "criterion = nn.BCELoss()"
+      ],
+      "metadata": {
+        "id": "5eorqVd43vIB"
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "losses_g = [] # to store generator loss after each epoch\n",
+        "losses_d = [] # to store discriminator loss after each epoch\n",
+        "images = [] # to store images generatd by the generator"
+      ],
+      "metadata": {
+        "id": "qb8kbwYK31NI"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# to create real labels (1s)\n",
+        "def label_real(size):\n",
+        "    data = torch.ones(size, 1)\n",
+        "    return data.to(device)\n",
+        "# to create fake labels (0s)\n",
+        "def label_fake(size):\n",
+        "    data = torch.zeros(size, 1)\n",
+        "    return data.to(device)"
+      ],
+      "metadata": {
+        "id": "22kcl46y37lq"
+      },
+      "execution_count": 13,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# function to create the noise vector\n",
+        "def create_noise(sample_size, nz):\n",
+        "    return torch.randn(sample_size, nz).to(device)"
+      ],
+      "metadata": {
+        "id": "4vqm4tUd4DPy"
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# to save the images generated by the generator\n",
+        "def save_generator_image(image, path):\n",
+        "    save_image(image, path)"
+      ],
+      "metadata": {
+        "id": "MMXj-ZVn32NR"
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# function to train the discriminator network\n",
+        "def train_discriminator(optimizer, data_real, data_fake):\n",
+        "    b_size = data_real.size(0)\n",
+        "    real_label = label_real(b_size)\n",
+        "    fake_label = label_fake(b_size)\n",
+        "    optimizer.zero_grad()\n",
+        "    output_real = discriminator(data_real)\n",
+        "    loss_real = criterion(output_real, real_label)\n",
+        "    output_fake = discriminator(data_fake)\n",
+        "    loss_fake = criterion(output_fake, fake_label)\n",
+        "    loss_real.backward()\n",
+        "    loss_fake.backward()\n",
+        "    optimizer.step()\n",
+        "    return loss_real + loss_fake"
+      ],
+      "metadata": {
+        "id": "yr1-HvSq4PB0"
+      },
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# function to train the generator network\n",
+        "def train_generator(optimizer, data_fake):\n",
+        "    b_size = data_fake.size(0)\n",
+        "    real_label = label_real(b_size)\n",
+        "    optimizer.zero_grad()\n",
+        "    output = discriminator(data_fake)\n",
+        "    loss = criterion(output, real_label)\n",
+        "    loss.backward()\n",
+        "    optimizer.step()\n",
+        "    return loss"
+      ],
+      "metadata": {
+        "id": "T5IvlhA_4Wyn"
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# create the noise vector\n",
+        "noise = create_noise(sample_size, nz)"
+      ],
+      "metadata": {
+        "id": "BvuLdwS147Y5"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "generator.train()\n",
+        "discriminator.train()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G3gzpi4w4-sX",
+        "outputId": "f82144b3-44f2-4f4f-c40c-7c18422eff85"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Discriminator(\n",
+              "  (main): Sequential(\n",
+              "    (0): Linear(in_features=784, out_features=1024, bias=True)\n",
+              "    (1): LeakyReLU(negative_slope=0.2)\n",
+              "    (2): Dropout(p=0.3, inplace=False)\n",
+              "    (3): Linear(in_features=1024, out_features=512, bias=True)\n",
+              "    (4): LeakyReLU(negative_slope=0.2)\n",
+              "    (5): Dropout(p=0.3, inplace=False)\n",
+              "    (6): Linear(in_features=512, out_features=256, bias=True)\n",
+              "    (7): LeakyReLU(negative_slope=0.2)\n",
+              "    (8): Dropout(p=0.3, inplace=False)\n",
+              "    (9): Linear(in_features=256, out_features=1, bias=True)\n",
+              "    (10): Sigmoid()\n",
+              "  )\n",
+              ")"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for epoch in range(epochs):\n",
+        "    loss_g = 0.0\n",
+        "    loss_d = 0.0\n",
+        "    for bi, data in tqdm(enumerate(train_loader), total=int(len(train_data)/train_loader.batch_size)):\n",
+        "        image, _ = data\n",
+        "        image = image.to(device)\n",
+        "        b_size = len(image)\n",
+        "        # run the discriminator for k number of steps\n",
+        "        for step in range(k):\n",
+        "            data_fake = generator(create_noise(b_size, nz)).detach()\n",
+        "            data_real = image\n",
+        "            # train the discriminator network\n",
+        "            loss_d += train_discriminator(optim_d, data_real, data_fake)\n",
+        "        data_fake = generator(create_noise(b_size, nz))\n",
+        "        # train the generator network\n",
+        "        loss_g += train_generator(optim_g, data_fake)\n",
+        "    # create the final fake image for the epoch\n",
+        "    generated_img = generator(noise).cpu().detach()\n",
+        "    # make the images as grid\n",
+        "    generated_img = make_grid(generated_img)\n",
+        "    # save the generated torch tensor models to disk\n",
+        "    save_generator_image(generated_img, f\"./gen_img{epoch}.png\")\n",
+        "    images.append(generated_img)\n",
+        "    epoch_loss_g = loss_g / bi # total generator loss for the epoch\n",
+        "    epoch_loss_d = loss_d / bi # total discriminator loss for the epoch\n",
+        "    losses_g.append(epoch_loss_g)\n",
+        "    losses_d.append(epoch_loss_d)\n",
+        "    \n",
+        "    print(f\"Epoch {epoch} of {epochs}\")\n",
+        "    print(f\"Generator loss: {epoch_loss_g:.8f}, Discriminator loss: {epoch_loss_d:.8f}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X_Dm3GWb5J76",
+        "outputId": "a111298d-d137-481b-81b2-85ddcbdb6f71"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.97it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 0 of 200\n",
+            "Generator loss: 2.24256301, Discriminator loss: 1.33247876\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.02it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 1 of 200\n",
+            "Generator loss: 5.97809982, Discriminator loss: 0.43021545\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.66it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 2 of 200\n",
+            "Generator loss: 2.60580921, Discriminator loss: 1.12940502\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.92it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 3 of 200\n",
+            "Generator loss: 1.29653585, Discriminator loss: 1.36715305\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.60it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 4 of 200\n",
+            "Generator loss: 1.24574029, Discriminator loss: 1.08468878\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.91it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 5 of 200\n",
+            "Generator loss: 1.38076794, Discriminator loss: 1.11303365\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.84it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 6 of 200\n",
+            "Generator loss: 2.35654497, Discriminator loss: 0.83087873\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.67it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 7 of 200\n",
+            "Generator loss: 2.75354099, Discriminator loss: 1.20765293\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.64it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 8 of 200\n",
+            "Generator loss: 1.46851051, Discriminator loss: 0.91572374\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.71it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 9 of 200\n",
+            "Generator loss: 2.00667763, Discriminator loss: 0.84573317\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.93it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 10 of 200\n",
+            "Generator loss: 2.34532619, Discriminator loss: 1.15053093\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 11 of 200\n",
+            "Generator loss: 1.36047482, Discriminator loss: 1.48007214\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 12 of 200\n",
+            "Generator loss: 2.08125234, Discriminator loss: 0.93090987\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.01it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 13 of 200\n",
+            "Generator loss: 1.06121325, Discriminator loss: 1.39432764\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.64it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 14 of 200\n",
+            "Generator loss: 1.28278756, Discriminator loss: 0.93185508\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.05it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 15 of 200\n",
+            "Generator loss: 1.58318794, Discriminator loss: 0.80497295\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.95it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 16 of 200\n",
+            "Generator loss: 3.17910600, Discriminator loss: 0.75500590\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 17 of 200\n",
+            "Generator loss: 2.68758488, Discriminator loss: 0.87309074\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.97it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 18 of 200\n",
+            "Generator loss: 2.72902107, Discriminator loss: 0.63534606\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:18,  6.31it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 19 of 200\n",
+            "Generator loss: 2.63826919, Discriminator loss: 0.72541165\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.04it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 20 of 200\n",
+            "Generator loss: 2.03297114, Discriminator loss: 0.76684999\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 21 of 200\n",
+            "Generator loss: 2.05068183, Discriminator loss: 0.72635412\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 22 of 200\n",
+            "Generator loss: 2.37147188, Discriminator loss: 0.53397882\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.08it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 23 of 200\n",
+            "Generator loss: 3.37993217, Discriminator loss: 0.47064531\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.77it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 24 of 200\n",
+            "Generator loss: 2.13395262, Discriminator loss: 0.78804386\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.10it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 25 of 200\n",
+            "Generator loss: 2.63227057, Discriminator loss: 0.60264552\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.11it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 26 of 200\n",
+            "Generator loss: 2.89053512, Discriminator loss: 0.43466452\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.70it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 27 of 200\n",
+            "Generator loss: 3.44003654, Discriminator loss: 0.44771647\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.01it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 28 of 200\n",
+            "Generator loss: 3.14786386, Discriminator loss: 0.55339938\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.80it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 29 of 200\n",
+            "Generator loss: 3.79499912, Discriminator loss: 0.45355058\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.94it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 30 of 200\n",
+            "Generator loss: 2.97921515, Discriminator loss: 0.50303954\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.74it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 31 of 200\n",
+            "Generator loss: 2.92565155, Discriminator loss: 0.50348139\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.72it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 32 of 200\n",
+            "Generator loss: 3.11751008, Discriminator loss: 0.41492921\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 33 of 200\n",
+            "Generator loss: 3.07379222, Discriminator loss: 0.53143418\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.98it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 34 of 200\n",
+            "Generator loss: 2.50940108, Discriminator loss: 0.62067866\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.04it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 35 of 200\n",
+            "Generator loss: 2.76000929, Discriminator loss: 0.59442401\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.24it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 36 of 200\n",
+            "Generator loss: 2.77654791, Discriminator loss: 0.60383320\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.92it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 37 of 200\n",
+            "Generator loss: 2.46940732, Discriminator loss: 0.63070756\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.06it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 38 of 200\n",
+            "Generator loss: 2.70492649, Discriminator loss: 0.56144196\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.87it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 39 of 200\n",
+            "Generator loss: 3.03991652, Discriminator loss: 0.50930506\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.73it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 40 of 200\n",
+            "Generator loss: 2.68748093, Discriminator loss: 0.55612504\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.02it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 41 of 200\n",
+            "Generator loss: 3.12609816, Discriminator loss: 0.48246163\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.94it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 42 of 200\n",
+            "Generator loss: 3.10906196, Discriminator loss: 0.41851184\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.65it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 43 of 200\n",
+            "Generator loss: 3.05615664, Discriminator loss: 0.50462377\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.11it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 44 of 200\n",
+            "Generator loss: 2.92167282, Discriminator loss: 0.47175691\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.76it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 45 of 200\n",
+            "Generator loss: 3.24800539, Discriminator loss: 0.41562241\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 46 of 200\n",
+            "Generator loss: 3.17803478, Discriminator loss: 0.41881150\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.08it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 47 of 200\n",
+            "Generator loss: 3.32387567, Discriminator loss: 0.40621638\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.85it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 48 of 200\n",
+            "Generator loss: 3.11736345, Discriminator loss: 0.49322447\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.06it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 49 of 200\n",
+            "Generator loss: 3.07686448, Discriminator loss: 0.55245644\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.79it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 50 of 200\n",
+            "Generator loss: 3.13023186, Discriminator loss: 0.47793734\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 51 of 200\n",
+            "Generator loss: 2.88425541, Discriminator loss: 0.49460286\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.61it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 52 of 200\n",
+            "Generator loss: 3.29616070, Discriminator loss: 0.45290375\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 53 of 200\n",
+            "Generator loss: 3.04470086, Discriminator loss: 0.51929510\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.13it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 54 of 200\n",
+            "Generator loss: 3.01095486, Discriminator loss: 0.44644916\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:18,  6.50it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 55 of 200\n",
+            "Generator loss: 3.07717538, Discriminator loss: 0.47815308\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 56 of 200\n",
+            "Generator loss: 3.11201000, Discriminator loss: 0.50690234\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.04it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 57 of 200\n",
+            "Generator loss: 3.07705092, Discriminator loss: 0.52530462\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.77it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 58 of 200\n",
+            "Generator loss: 2.98667288, Discriminator loss: 0.51010132\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.00it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 59 of 200\n",
+            "Generator loss: 2.97329354, Discriminator loss: 0.47686395\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.84it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 60 of 200\n",
+            "Generator loss: 2.88581181, Discriminator loss: 0.57517797\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.15it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 61 of 200\n",
+            "Generator loss: 2.69336104, Discriminator loss: 0.56638396\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.05it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 62 of 200\n",
+            "Generator loss: 2.80367732, Discriminator loss: 0.53249514\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.76it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 63 of 200\n",
+            "Generator loss: 2.69299531, Discriminator loss: 0.58296746\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.05it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 64 of 200\n",
+            "Generator loss: 2.65364456, Discriminator loss: 0.58251637\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.95it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 65 of 200\n",
+            "Generator loss: 2.84855962, Discriminator loss: 0.55287111\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 66 of 200\n",
+            "Generator loss: 2.78287387, Discriminator loss: 0.52465290\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.04it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 67 of 200\n",
+            "Generator loss: 2.61355472, Discriminator loss: 0.54628998\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:18,  6.47it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 68 of 200\n",
+            "Generator loss: 2.73999143, Discriminator loss: 0.52829844\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.01it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 69 of 200\n",
+            "Generator loss: 2.71193433, Discriminator loss: 0.54550749\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.89it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 70 of 200\n",
+            "Generator loss: 2.67007065, Discriminator loss: 0.53265107\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.94it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 71 of 200\n",
+            "Generator loss: 2.65360498, Discriminator loss: 0.54877532\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 72 of 200\n",
+            "Generator loss: 2.63375783, Discriminator loss: 0.58645254\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.83it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 73 of 200\n",
+            "Generator loss: 2.54645395, Discriminator loss: 0.59637028\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.11it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 74 of 200\n",
+            "Generator loss: 2.55707169, Discriminator loss: 0.59703231\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 75 of 200\n",
+            "Generator loss: 2.53815722, Discriminator loss: 0.58127582\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.80it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 76 of 200\n",
+            "Generator loss: 2.39104223, Discriminator loss: 0.64680731\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.10it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 77 of 200\n",
+            "Generator loss: 2.40057826, Discriminator loss: 0.64432156\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.98it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 78 of 200\n",
+            "Generator loss: 2.43060684, Discriminator loss: 0.63709730\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.96it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 79 of 200\n",
+            "Generator loss: 2.30743361, Discriminator loss: 0.65390265\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.07it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 80 of 200\n",
+            "Generator loss: 2.33563042, Discriminator loss: 0.67592752\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:18,  6.51it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 81 of 200\n",
+            "Generator loss: 2.21430373, Discriminator loss: 0.68474251\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 82 of 200\n",
+            "Generator loss: 2.20991015, Discriminator loss: 0.66013396\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 83 of 200\n",
+            "Generator loss: 2.35430789, Discriminator loss: 0.63677454\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.77it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 84 of 200\n",
+            "Generator loss: 2.29571009, Discriminator loss: 0.67733967\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.21it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 85 of 200\n",
+            "Generator loss: 2.25770402, Discriminator loss: 0.67402637\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 86 of 200\n",
+            "Generator loss: 2.21963573, Discriminator loss: 0.68962353\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.99it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 87 of 200\n",
+            "Generator loss: 2.12656212, Discriminator loss: 0.73273700\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.15it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 88 of 200\n",
+            "Generator loss: 2.16150618, Discriminator loss: 0.72199720\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 89 of 200\n",
+            "Generator loss: 2.17698836, Discriminator loss: 0.70541465\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.09it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 90 of 200\n",
+            "Generator loss: 2.07286787, Discriminator loss: 0.72303569\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.13it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 91 of 200\n",
+            "Generator loss: 2.25557280, Discriminator loss: 0.72848451\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.87it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 92 of 200\n",
+            "Generator loss: 2.03033185, Discriminator loss: 0.76367080\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 93 of 200\n",
+            "Generator loss: 2.09104371, Discriminator loss: 0.75553429\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.97it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 94 of 200\n",
+            "Generator loss: 2.06744981, Discriminator loss: 0.77101290\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.70it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 95 of 200\n",
+            "Generator loss: 2.10502815, Discriminator loss: 0.75834465\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.13it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 96 of 200\n",
+            "Generator loss: 2.03732991, Discriminator loss: 0.75260717\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.82it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 97 of 200\n",
+            "Generator loss: 2.10693550, Discriminator loss: 0.74703705\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.08it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 98 of 200\n",
+            "Generator loss: 2.17900920, Discriminator loss: 0.69537199\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.20it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 99 of 200\n",
+            "Generator loss: 2.25656867, Discriminator loss: 0.70432752\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.83it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 100 of 200\n",
+            "Generator loss: 2.19865155, Discriminator loss: 0.68842077\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.19it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 101 of 200\n",
+            "Generator loss: 2.17208409, Discriminator loss: 0.74198806\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.91it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 102 of 200\n",
+            "Generator loss: 2.13444829, Discriminator loss: 0.74929911\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.09it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 103 of 200\n",
+            "Generator loss: 1.98467493, Discriminator loss: 0.78040069\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.11it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 104 of 200\n",
+            "Generator loss: 1.97373021, Discriminator loss: 0.79089773\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.72it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 105 of 200\n",
+            "Generator loss: 1.95913672, Discriminator loss: 0.76577926\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.13it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 106 of 200\n",
+            "Generator loss: 1.87563455, Discriminator loss: 0.79593903\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 107 of 200\n",
+            "Generator loss: 1.88350749, Discriminator loss: 0.81671852\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 108 of 200\n",
+            "Generator loss: 1.92460930, Discriminator loss: 0.81831425\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.85it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 109 of 200\n",
+            "Generator loss: 1.84453452, Discriminator loss: 0.83513844\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 110 of 200\n",
+            "Generator loss: 1.85435069, Discriminator loss: 0.84091151\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.18it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 111 of 200\n",
+            "Generator loss: 1.91169691, Discriminator loss: 0.81572431\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 112 of 200\n",
+            "Generator loss: 1.78911173, Discriminator loss: 0.87980300\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 113 of 200\n",
+            "Generator loss: 1.82380879, Discriminator loss: 0.87543738\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 114 of 200\n",
+            "Generator loss: 1.81668961, Discriminator loss: 0.84128290\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.19it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 115 of 200\n",
+            "Generator loss: 1.78244615, Discriminator loss: 0.86223423\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.84it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 116 of 200\n",
+            "Generator loss: 1.85412776, Discriminator loss: 0.85997933\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.21it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 117 of 200\n",
+            "Generator loss: 1.70780909, Discriminator loss: 0.90503269\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 118 of 200\n",
+            "Generator loss: 1.77604496, Discriminator loss: 0.85256225\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.89it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 119 of 200\n",
+            "Generator loss: 1.85000122, Discriminator loss: 0.82072818\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.10it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 120 of 200\n",
+            "Generator loss: 1.87438440, Discriminator loss: 0.83519429\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.91it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 121 of 200\n",
+            "Generator loss: 1.77208030, Discriminator loss: 0.89577478\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.22it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 122 of 200\n",
+            "Generator loss: 1.76900136, Discriminator loss: 0.87530422\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.73it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 123 of 200\n",
+            "Generator loss: 1.82901967, Discriminator loss: 0.86245525\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.85it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 124 of 200\n",
+            "Generator loss: 1.79503357, Discriminator loss: 0.85618871\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 125 of 200\n",
+            "Generator loss: 1.74536502, Discriminator loss: 0.87992340\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.21it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 126 of 200\n",
+            "Generator loss: 1.73622715, Discriminator loss: 0.86276686\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.81it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 127 of 200\n",
+            "Generator loss: 1.75284505, Discriminator loss: 0.86774141\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 128 of 200\n",
+            "Generator loss: 1.68494213, Discriminator loss: 0.88668859\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.01it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 129 of 200\n",
+            "Generator loss: 1.72866344, Discriminator loss: 0.89226514\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 130 of 200\n",
+            "Generator loss: 1.67659843, Discriminator loss: 0.89760947\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.18it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 131 of 200\n",
+            "Generator loss: 1.76609528, Discriminator loss: 0.87153274\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.86it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 132 of 200\n",
+            "Generator loss: 1.75684309, Discriminator loss: 0.89992714\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.22it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 133 of 200\n",
+            "Generator loss: 1.72771573, Discriminator loss: 0.89979690\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 134 of 200\n",
+            "Generator loss: 1.76026964, Discriminator loss: 0.87597334\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.94it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 135 of 200\n",
+            "Generator loss: 1.71452391, Discriminator loss: 0.88267529\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.21it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 136 of 200\n",
+            "Generator loss: 1.72817683, Discriminator loss: 0.89014733\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 137 of 200\n",
+            "Generator loss: 1.76097250, Discriminator loss: 0.89390123\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.86it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 138 of 200\n",
+            "Generator loss: 1.68675852, Discriminator loss: 0.89925820\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 139 of 200\n",
+            "Generator loss: 1.73244607, Discriminator loss: 0.88818854\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.94it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 140 of 200\n",
+            "Generator loss: 1.71061313, Discriminator loss: 0.90053278\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.10it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 141 of 200\n",
+            "Generator loss: 1.66877759, Discriminator loss: 0.90256429\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.21it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 142 of 200\n",
+            "Generator loss: 1.65159535, Discriminator loss: 0.92234337\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.85it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 143 of 200\n",
+            "Generator loss: 1.60227418, Discriminator loss: 0.93489099\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.17it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 144 of 200\n",
+            "Generator loss: 1.58926988, Discriminator loss: 0.92860067\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.18it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 145 of 200\n",
+            "Generator loss: 1.57532394, Discriminator loss: 0.94871134\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 146 of 200\n",
+            "Generator loss: 1.60654461, Discriminator loss: 0.94032604\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.24it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 147 of 200\n",
+            "Generator loss: 1.59082890, Discriminator loss: 0.95066804\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.08it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 148 of 200\n",
+            "Generator loss: 1.61086845, Discriminator loss: 0.93456155\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.98it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 149 of 200\n",
+            "Generator loss: 1.56355464, Discriminator loss: 0.95858204\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 150 of 200\n",
+            "Generator loss: 1.55237985, Discriminator loss: 0.96896982\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.00it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 151 of 200\n",
+            "Generator loss: 1.62201953, Discriminator loss: 0.93295014\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.75it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 152 of 200\n",
+            "Generator loss: 1.60619223, Discriminator loss: 0.92742640\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.15it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 153 of 200\n",
+            "Generator loss: 1.60280001, Discriminator loss: 0.95583737\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.92it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 154 of 200\n",
+            "Generator loss: 1.58365285, Discriminator loss: 0.95260894\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 155 of 200\n",
+            "Generator loss: 1.52254510, Discriminator loss: 0.97374475\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.17it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 156 of 200\n",
+            "Generator loss: 1.57789350, Discriminator loss: 0.96116781\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.89it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 157 of 200\n",
+            "Generator loss: 1.56913555, Discriminator loss: 0.96082437\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.27it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 158 of 200\n",
+            "Generator loss: 1.53015089, Discriminator loss: 0.97199237\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.07it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 159 of 200\n",
+            "Generator loss: 1.52538049, Discriminator loss: 0.96446252\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.98it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 160 of 200\n",
+            "Generator loss: 1.43202281, Discriminator loss: 1.01151514\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.04it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 161 of 200\n",
+            "Generator loss: 1.45179474, Discriminator loss: 1.00039327\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.74it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 162 of 200\n",
+            "Generator loss: 1.41706955, Discriminator loss: 1.01846373\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.09it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 163 of 200\n",
+            "Generator loss: 1.44558597, Discriminator loss: 1.00345814\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.19it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 164 of 200\n",
+            "Generator loss: 1.55805099, Discriminator loss: 0.96153456\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 165 of 200\n",
+            "Generator loss: 1.44568324, Discriminator loss: 1.00590444\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.78it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 166 of 200\n",
+            "Generator loss: 1.46511483, Discriminator loss: 1.00167620\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.89it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 167 of 200\n",
+            "Generator loss: 1.44722569, Discriminator loss: 0.99764448\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.11it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 168 of 200\n",
+            "Generator loss: 1.42425311, Discriminator loss: 1.01233923\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 169 of 200\n",
+            "Generator loss: 1.41195130, Discriminator loss: 1.02327633\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.82it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 170 of 200\n",
+            "Generator loss: 1.51507759, Discriminator loss: 1.00671887\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 171 of 200\n",
+            "Generator loss: 1.42065227, Discriminator loss: 1.00939965\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 172 of 200\n",
+            "Generator loss: 1.41818833, Discriminator loss: 1.03817797\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.82it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 173 of 200\n",
+            "Generator loss: 1.40115166, Discriminator loss: 1.04596090\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.14it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 174 of 200\n",
+            "Generator loss: 1.42253065, Discriminator loss: 1.00924301\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.02it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 175 of 200\n",
+            "Generator loss: 1.47210336, Discriminator loss: 1.01007175\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.00it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 176 of 200\n",
+            "Generator loss: 1.46124911, Discriminator loss: 1.02533937\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.06it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 177 of 200\n",
+            "Generator loss: 1.42086494, Discriminator loss: 1.01438057\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.85it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 178 of 200\n",
+            "Generator loss: 1.44142711, Discriminator loss: 1.02293551\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.02it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 179 of 200\n",
+            "Generator loss: 1.39639711, Discriminator loss: 1.03316832\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.03it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 180 of 200\n",
+            "Generator loss: 1.45806384, Discriminator loss: 1.00835168\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:18,  6.52it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 181 of 200\n",
+            "Generator loss: 1.41875947, Discriminator loss: 1.02913880\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.12it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 182 of 200\n",
+            "Generator loss: 1.42038321, Discriminator loss: 1.03340673\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.88it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 183 of 200\n",
+            "Generator loss: 1.37964773, Discriminator loss: 1.03845549\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.10it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 184 of 200\n",
+            "Generator loss: 1.44417441, Discriminator loss: 1.01098156\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.18it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 185 of 200\n",
+            "Generator loss: 1.36101627, Discriminator loss: 1.04508460\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.81it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 186 of 200\n",
+            "Generator loss: 1.45252025, Discriminator loss: 1.01355159\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.09it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 187 of 200\n",
+            "Generator loss: 1.35976267, Discriminator loss: 1.04089212\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.05it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 188 of 200\n",
+            "Generator loss: 1.39514458, Discriminator loss: 1.03373492\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.90it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 189 of 200\n",
+            "Generator loss: 1.36968255, Discriminator loss: 1.04693043\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.13it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 190 of 200\n",
+            "Generator loss: 1.38537252, Discriminator loss: 1.03771341\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.82it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 191 of 200\n",
+            "Generator loss: 1.30820835, Discriminator loss: 1.06843841\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.07it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 192 of 200\n",
+            "Generator loss: 1.39670920, Discriminator loss: 1.04297853\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.08it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 193 of 200\n",
+            "Generator loss: 1.29986107, Discriminator loss: 1.06083465\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.83it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 194 of 200\n",
+            "Generator loss: 1.35136974, Discriminator loss: 1.04964232\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.16it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 195 of 200\n",
+            "Generator loss: 1.37101007, Discriminator loss: 1.03797185\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.61it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 196 of 200\n",
+            "Generator loss: 1.31454074, Discriminator loss: 1.05780172\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  6.99it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 197 of 200\n",
+            "Generator loss: 1.35914767, Discriminator loss: 1.06597614\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:16,  7.00it/s]                         \n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 198 of 200\n",
+            "Generator loss: 1.31379068, Discriminator loss: 1.06374276\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "118it [00:17,  6.84it/s]                         "
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Epoch 199 of 200\n",
+            "Generator loss: 1.29856908, Discriminator loss: 1.09069741\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('DONE TRAINING')\n",
+        "torch.save(generator.state_dict(), '../outputs/generator.pth')"
+      ],
+      "metadata": {
+        "id": "A4IE9QAqJD9i"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "WCj_-DJ2JEKD"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
